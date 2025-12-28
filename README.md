@@ -1,2 +1,2 @@
-# html-portfolio
-Coding assignments are going here.
+# portfolio
+A working portfolio of my web designs as they are completed through coursework
