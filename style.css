@@ -1,23 +1,19 @@
-.footer {
-    font-size: 14px;
-    color: black;
-    text-align: center;
-}
-
 h1{
     text-align: center;
-    font-weight: bold;
-    font-size: 36px;
+    font-family: 'jersey 10', cursive;
+    font-weight: normal;
+    font-size: 40px;
     }
 
 h2{
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     font-size: 28px;
+    font-family: 'kristy', cursive;
 }
 
 h3{
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     font-style: italic;
     font-size: 24px;
@@ -42,3 +38,32 @@ h5{
     text-align: left;
     font-size: 16px;
     text-indent: 40px;}
+
+html {
+    background-color: #213448;
+}
+header {
+    text-align: center;
+    background-color: #547792;
+    font-family:'Times New Roman', Times, serif;
+    color: whitesmoke;
+    padding: 10px;
+}
+body {
+    text-align: left;
+    background-color: #94B4C1;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer {
+    text-align: center;
+    background-color: #eae0cf;
+    font-size: 12pt;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#jazz {
+    font-family: 'Quintessential', cursive;
+    color: #161E54;
+    font-size: 20pt;
+    }
