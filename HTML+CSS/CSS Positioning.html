@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    footer p {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    }   
+
+    h1.header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: black
+    }
+
+    .red-circle {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      border-radius: 50%;
+      position: absolute;
+      top: 150px;
+      left: 250px;
+    }
+
+    .blue-box {
+      width: 500px;
+      height: 300px;
+      background-color: blue;
+      position: relative;
+      top: 200px;
+      left: 200px;
+    }
+  </style>
+</head>
+<body>
+  <header> 
+  <h1 class="header"> CSS Positioning Exercise </h1>
+  </header>
+  <main>
+    <p style="text-align: center;"> This is a positioning exercise to differentiate between the four different types of CSS Positioning:
+    <ul>
+      <li>Static: HTML Default Flow</li>
+      <li>Relative: Position Relative to Default Position</li>
+      <li>Absolute: Position relative to the nearest position ancestor or the top left corner of the webpage </li>
+      <li>Fixed: Position relative to the top left corner of the browser and moves with the webpage as it scrolls.</li>
+    </ul>
+  <div class="blue-box">
+    <p style="color: aliceblue;"> This is relative positioning. </p>
+    <div class="red-circle">
+      <p style="color: aliceblue; text-align: center;"> <br />
+        <br />
+        <br />
+        <br /> This is absolute positioning. </p>
+    </div>
+  </div>
+  </main>
+  <hr style="position: relative; top: 300px"/>  
+  <footer style="position: relative; top: 300px">
+    <p> <a href="../index.html">Home</a> | <a href="../contact.html">Contact</a> | <a href="../about.html"> About Me | <a href="./HTML+CSS Projects.html"> HTML and CSS Projects </a> </p>   
+    <p> Created as part of Udemy course "Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps" by AppBrewery on 12/29/2025 </p>
+    <p> Note: This Footer is 300px lower than usual using positioning. </p>
+  </footer>
+</body>
+</html>
