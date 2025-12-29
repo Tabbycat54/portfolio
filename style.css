@@ -67,3 +67,13 @@ footer {
     color: #161E54;
     font-size: 20pt;
     }
+
+.hellobox {
+    margin-left: 160px
+    }
+
+.css-logo {
+    border: 5px solid #161E54;
+    box-shadow: #213448 4px 4px 10px;
+    border-radius: 10px;
+    }
