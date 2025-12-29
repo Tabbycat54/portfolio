@@ -17,6 +17,8 @@ h3{
     font-weight: bold;
     font-style: italic;
     font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #161E54;
     }
 
 h4{
@@ -73,7 +75,23 @@ footer {
     }
 
 .css-logo {
+    height: 350px;
+    width: 400px;
     border: 5px solid #161E54;
     box-shadow: #213448 4px 4px 10px;
     border-radius: 10px;
     }
+
+.dragonkitty {
+    height: 300px;
+    width: 250px;
+    border: 3px solid #161E54;
+    box-shadow: #213448 4px 4px 10px;
+    border-radius: 10px;
+    }
+
+p {
+    font-size: 12pt;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
