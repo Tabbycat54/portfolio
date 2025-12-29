@@ -1,0 +1,36 @@
+h1, h2 {
+    color: blueviolet
+}
+
+.box > p {
+    color:firebrick
+}
+
+.box li {
+    color: blue
+}
+
+li.done {
+    color: seagreen;
+}
+
+ul p.done {
+    font-size: .5rem;
+}
+
+footer p {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}   
+
+h1.header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: black
+    }
+
+.centerme {
+    text-align: center;
+}

@@ -18,7 +18,7 @@ h3{
     font-style: italic;
     font-size: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #161E54;
+    color: #EAE0CF;
     }
 
 h4{
@@ -38,30 +38,52 @@ h5{
 
 .about  {
     text-align: left;
-    font-size: 16px;
-    text-indent: 40px;}
+    font-size: 12pt;
+    text-indent: 40px;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
 
 html {
-    background-color: #213448;
+    background-color: #eae0cf;
 }
+
 header {
     text-align: center;
-    background-color: #547792;
+    background-color: #213448;
     font-family:'Times New Roman', Times, serif;
     color: whitesmoke;
     padding: 10px;
 }
 body {
     text-align: left;
-    background-color: #94B4C1;
+    background-color: #547792;
     font-family: 'Times New Roman', Times, serif;
 }
-footer {
+
+body p {
     text-align: center;
+}
+
+footer {
     background-color: #eae0cf;
-    font-size: 12pt;
+}
+
+footer p {
+    text-align: center;
+    font-size: 10pt;
     color: black;
     font-family: 'Times New Roman', Times, serif;
+}
+
+footer p a {
+    font-size: 12pt;
+}
+
+main {
+    background-color: #94B4C1;
+    padding: 10px;
 }
 
 #jazz {
@@ -73,7 +95,6 @@ footer {
 .hellobox {
     height: 200px;
     width: 300px;
-    margin-left: 160px
     }
 
 .css-logo {
@@ -90,11 +111,13 @@ footer {
     border: 3px solid #161E54;
     box-shadow: #213448 4px 4px 10px;
     border-radius: 10px;
+    margin-left: 33.3%;
+    margin-top: 15px
     }
 
 p {
     font-size: 12pt;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -107,7 +130,18 @@ p {
 
 .motivational-poster {
     height: 250px;
-    width: 450px;
-    margin-left: 125px;
-    
+    width: 450px;    
+}
+
+.description-paragraph {
+    text-align: center;
+}
+
+.main-h3 {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #161E54;
 }

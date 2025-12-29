@@ -1,0 +1,34 @@
+#outer-box {
+  border: 10px solid purple;
+ }
+ 
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+
+.inner-box {
+  background-color: red;
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+.white-text {
+  color: white
+}
+
+.footer {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}   
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    }
