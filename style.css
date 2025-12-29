@@ -111,8 +111,9 @@ main {
     border: 3px solid #161E54;
     box-shadow: #213448 4px 4px 10px;
     border-radius: 10px;
-    margin-left: 33.3%;
-    margin-top: 15px
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     }
 
 p {
