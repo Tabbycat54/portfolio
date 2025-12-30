@@ -3,6 +3,7 @@ h1{
     font-family: 'jersey 10', cursive;
     font-weight: normal;
     font-size: 40px;
+    color:#161E54
     }
 
 h2{
@@ -46,28 +47,25 @@ h5{
 }
 
 html {
-    background-color: #eae0cf;
+    background-color: #000000;
 }
 
 header {
     text-align: center;
-    background-color: #213448;
     font-family:'Times New Roman', Times, serif;
     color: whitesmoke;
     padding: 10px;
+    background-color: #4a70a9;
 }
 body {
     text-align: left;
-    background-color: #547792;
     font-family: 'Times New Roman', Times, serif;
+    background-color: #efece3;
 }
+
 
 body p {
     text-align: center;
-}
-
-footer {
-    background-color: #eae0cf;
 }
 
 footer p {
@@ -75,6 +73,7 @@ footer p {
     font-size: 10pt;
     color: black;
     font-family: 'Times New Roman', Times, serif;
+    background-color: #efecee;
 }
 
 footer p a {
@@ -82,8 +81,8 @@ footer p a {
 }
 
 main {
-    background-color: #94B4C1;
     padding: 10px;
+    background-color: #8fabd4;
 }
 
 #jazz {
