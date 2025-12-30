@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>Media Query</title>
+  <style>
+    body {
+      background-color: aquamarine;
+    }
+
+    @media(min-width:200px) and (max-width:480px) {
+      body {
+        background-color: lightsalmon;
+      }
+      div > h5 {
+        display: block;
+      }
+      div > h4 {
+        display: none;
+      }
+      div > h3 {
+        display: none;
+      }
+      div > h2 {
+        display:none;
+      }
+    }
+
+    @media(min-width:481px) and (max-width:1200px) {
+      body{
+        background-color: powderblue;
+      }
+      div > h5 {
+        display: none;
+      }
+      div > h4 {
+        display: block;
+      }
+      div > h3 {
+        display: none;
+      }
+      div > h2 {
+        display:none;
+      }
+    }
+
+    @media(min-width:1201px) and (max-width:1600px) {
+      body{
+        background-color: limegreen;
+      }
+      div > h5 {
+        display: none;
+      }
+      div > h4 {
+        display: none;
+      }
+      div > h3 {
+        display: block;
+      }
+      div > h2 {
+        display:none;
+      }
+    }
+
+    @media (min-width: 1601px) {
+      body {
+        background-color: seagreen;
+      }      
+      div > h5 {
+        display: none;
+      }
+      div > h4 {
+        display: none;
+      }
+      div > h3 {
+        display: none;
+      }
+      div > h2 {
+        display: block;
+      }
+    }
+    Footer {
+      text-align: center;
+    }
+
+  </style>
+</head>
+  <body>
+    <div>
+      <h5> I'd bet you're looking at this with a cell phone.</h5>
+    </div>
+
+    <div>
+      <h4> Ah, a tablet user, very nice. </h4>
+    </div>
+
+    <div>
+      <h3> Look at you, Fancy Pants is on a laptop.</h3>
+    </div>
+
+    <div>
+      <h2> I can see clearly now, the screen is large.</h2>
+    </div>
+<hr />
+    <footer>
+      <p style="font-size: 12pt;"> <a href="../index.html">Home</a> | <a href="../contact.html">Contact</a> | <a href="../about.html"> About Me | <a href="./HTML+CSS Projects.html"> HTML and CSS Projects </a> </p>
+      <p style="font-size: 10pt;"> Created as part of Udemy course "Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps" by AppBrewery on 12/29/2025 </p>
+    </footer>
+  </body>
+</html>
